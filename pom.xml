@@ -60,7 +60,6 @@
                             </preremoveScriptlet>
                             <mappings>
                                 <mapping>
-                                    <recurseDirectories>true</recurseDirectories>
                                     <directory>/usr/local/opendj</directory>
                                     <sources>
                                         <source>
