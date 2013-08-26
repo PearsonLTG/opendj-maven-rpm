@@ -46,9 +46,6 @@
                             <defaultUsername>opendj</defaultUsername>
                             <defaultGroupname>opendj</defaultGroupname>
                             <defaultDirmode>755</defaultDirmode>
-                            <requires>
-                                <require>jdk</require>
-                            </requires>
                             <preinstallScriptlet>
                                 <scriptFile>pre.sh</scriptFile>
                             </preinstallScriptlet>
