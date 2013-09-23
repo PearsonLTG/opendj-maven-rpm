@@ -3,7 +3,5 @@ sed -i'' -e 's/ds-cfg-listen-port: 389/ds-cfg-listen-port: 1389/' /usr/local/ope
 
 chmod +x /usr/local/opendj/setup
 chmod -R +x /usr/local/opendj/bin/
-# create init.d script and start on next boot
-/usr/local/opendj/bin/create-rc-script --outputfile /etc/init.d/opendj --userName opendj
 /sbin/chkconfig --add opendj
 /sbin/chkconfig --level 345 opendj on

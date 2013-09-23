@@ -57,6 +57,14 @@
                             </preremoveScriptlet>
                             <mappings>
                                 <mapping>
+                                    <directory>/etc/init.d</directory>
+                                    <sources>
+                                        <source>
+                                            <location>opendj.initd</location>
+                                        </source>
+                                    </sources>
+                                </mapping>
+                                <mapping>
                                     <directory>/usr/local/opendj</directory>
                                     <sources>
                                         <source>
