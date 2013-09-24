@@ -57,7 +57,8 @@
                             </preremoveScriptlet>
                             <mappings>
                                 <mapping>
-                                    <directory>/etc/init.d</directory>
+                                    <directoryIncluded>false</directoryIncluded>
+                                    <directory>/etc/init.d/</directory>
                                     <filemode>755</filemode>
                                     <sources>
                                         <source>
