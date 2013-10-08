@@ -71,7 +71,7 @@
                                     <directory>/usr/local/opendj</directory>
                                     <sources>
                                         <source>
-                                            <location>build/package/OpenDJ-2.6.0</location>
+                                            <location>build/package/opendj</location>
                                         </source>
                                     </sources>
                                 </mapping>
