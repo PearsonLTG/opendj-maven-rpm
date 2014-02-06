@@ -71,7 +71,7 @@
                                     <directory>/usr/local/opendj</directory>
                                     <sources>
                                         <source>
-                                            <location>build/package/opendj</location>
+                                            <location>pearson-opendj/build/package/opendj</location>
                                         </source>
                                     </sources>
                                 </mapping>
